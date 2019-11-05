@@ -15,6 +15,7 @@ import java.io.IOException;
  */
 public class WordCountJob {
     public static void main(String[] args) {
+
         try {
             Configuration conf = new Configuration();
 
@@ -50,12 +51,19 @@ public class WordCountJob {
             job.setNumReduceTasks(1);
 
             /* Job input path in HDFS */
-            FileInputFormat.addInputPath(job, new Path(args[0]));
+
+            Path test1 = new Path("test_file.txt");
+            FileInputFormat.addInputPath(job, test1);
+
+//            FileInputFormat.addInputPath(job, new Path(args[0]));
 
             /* Job output path in HDFS. NOTE: if the output path already exists
              * and you try to create it, the job will fail. You may want to
              * automate the creation of new output directories here */
-            FileOutputFormat.setOutputPath(job, new Path(args[1]));
+            Path test1Output = new Path("output_test_file.txt");
+            FileOutputFormat.setOutputPath(job, test1Output);
+
+//            FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
             /* Wait (block) for the job to complete... */
             System.exit(job.waitForCompletion(true) ? 0 : 1);
