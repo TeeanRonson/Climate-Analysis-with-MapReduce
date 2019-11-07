@@ -34,7 +34,7 @@ public class WordCountJob {
              * but ONLY if its inputs and ouputs match up correctly. The
              * combiner is disabled here, but the following can be uncommented
              * for this particular job:
-            //job.setCombinerClass(WordCountReducer.class);
+            //job.setCombinerClass(Question1Reducer.class);
 
             /* Reducer class */
             job.setReducerClass(WordCountReducer.class);
@@ -52,18 +52,18 @@ public class WordCountJob {
 
             /* Job input path in HDFS */
 
-            Path test1 = new Path("test_file.txt");
-            FileInputFormat.addInputPath(job, test1);
+//            Path test1 = new Path("test_file.txt");
+//            FileInputFormat.addInputPath(job, test1);
 
-//            FileInputFormat.addInputPath(job, new Path(args[0]));
+            FileInputFormat.addInputPath(job, new Path(args[0]));
 
             /* Job output path in HDFS. NOTE: if the output path already exists
              * and you try to create it, the job will fail. You may want to
              * automate the creation of new output directories here */
-            Path test1Output = new Path("output_test_file.txt");
-            FileOutputFormat.setOutputPath(job, test1Output);
+//            Path test1Output = new Path("output_test_file.txt");
+//            FileOutputFormat.setOutputPath(job, test1Output);
 
-//            FileOutputFormat.setOutputPath(job, new Path(args[1]));
+            FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
             /* Wait (block) for the job to complete... */
             System.exit(job.waitForCompletion(true) ? 0 : 1);

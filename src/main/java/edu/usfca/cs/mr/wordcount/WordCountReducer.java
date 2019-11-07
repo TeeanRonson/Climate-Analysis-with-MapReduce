@@ -23,6 +23,8 @@ extends Reducer<Text, IntWritable, Text, IntWritable> {
         for(IntWritable val : values){
             count += val.get();
         }
+
+        System.out.println(count);
         context.write(key, new IntWritable(count));
     }
 

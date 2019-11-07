@@ -19,6 +19,8 @@ extends Mapper<LongWritable, Text, Text, IntWritable> {
         throws IOException, InterruptedException {
         // tokenize into words.
         StringTokenizer itr = new StringTokenizer(value.toString());
+
+        System.out.println(value.toString());
         // emit word, count pairs.
         while (itr.hasMoreTokens()) {
             context.write(new Text(itr.nextToken()), new IntWritable(1));

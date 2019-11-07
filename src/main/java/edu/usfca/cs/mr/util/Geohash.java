@@ -93,6 +93,7 @@ public class Geohash {
      */
     public static String encode(float latitude, float longitude,
                                 int precision) {
+
         /* Set up 2-element arrays for longitude and latitude that we can flip
          * between while encoding */
         float[] high  = new float[2];
