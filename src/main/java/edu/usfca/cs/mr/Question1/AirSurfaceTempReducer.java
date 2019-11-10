@@ -15,7 +15,7 @@ import java.io.IOException;
  * word, list<count> pairs.  Sums up individual counts per given word. Emits
  * <word, total count> pairs.
  */
-public class AirTempReducer
+public class AirSurfaceTempReducer
 extends Reducer<DateLocation, FloatWritable, Text, Text> {
 
     @Override
@@ -30,7 +30,7 @@ extends Reducer<DateLocation, FloatWritable, Text, Text> {
         Text date = new Text();
 
         for (FloatWritable f: values) {
-            if (f.get() != CONSTANTS.MISSING1DEC) {
+            if (f.get() != CONSTANTS.TWO9S) {
 //                if (f.get() > highestTemp) {
 //                    highestTemp = f.get();
 //                }
@@ -40,23 +40,13 @@ extends Reducer<DateLocation, FloatWritable, Text, Text> {
             }
         }
 
-//        if (!location.toString().equals("")) {
-//            context.write(new Text(location.toString()), new Text(String.valueOf(highestTemp)));
-//        }
-
-//        if (!location.toString().equals("")) {
-//            context.write(new Text(location.toString()), new Text(String.valueOf(lowestTemp)));
-//        }
-
-        if (key.toString() != null) {
-            context.write(new Text(key.toString()), new Text(String.valueOf(lowestTemp)));
-        }
-
 //        if (key.toString() != null) {
 //            context.write(new Text(key.toString()), new Text(String.valueOf(highestTemp)));
 //        }
 
-
+        if (key.toString() != null && lowestTemp != Float.MAX_VALUE) {
+            context.write(new Text(key.toString()), new Text(String.valueOf(lowestTemp)));
+        }
     }
 
 }

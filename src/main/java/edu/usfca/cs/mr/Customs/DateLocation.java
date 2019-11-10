@@ -46,7 +46,7 @@ public class DateLocation implements WritableComparable<DateLocation> {
         if (location == null || date.get() == 0) {
             return null;
         }
-        return location + " " + String.valueOf(date.get());
+        return location + ", " + String.valueOf(date.get()) + ", ";
     }
 
     @Override

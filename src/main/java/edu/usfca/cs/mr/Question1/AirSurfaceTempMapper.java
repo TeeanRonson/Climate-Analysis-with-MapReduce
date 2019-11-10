@@ -12,9 +12,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 /**
- * AirTemp -> DateLocation
+ * AirSurfaceTemp -> DateLocation
  */
-public class AirTempMapper
+public class AirSurfaceTempMapper
 extends Mapper<LongWritable, Text, DateLocation, FloatWritable> {
 
     @Override
@@ -35,6 +35,7 @@ extends Mapper<LongWritable, Text, DateLocation, FloatWritable> {
         airTemp.set(grab.get_Air_Temp());
         surfTemp.set(grab.get_Surface_Temp());
 
-        context.write(dl, surfTemp);
+//        context.write(dl, surfTemp);
+        context.write(dl, airTemp);
     }
 }

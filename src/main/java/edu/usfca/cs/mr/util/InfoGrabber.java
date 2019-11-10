@@ -89,7 +89,6 @@ public class InfoGrabber {
 
         Float value = Float.parseFloat(info[8]);
 
-//        if (value.equals(CONSTANTS.MISSING1DEC)) return null;
         return value;
     }
 
@@ -119,8 +118,6 @@ public class InfoGrabber {
     public Float get_Surface_Temp() {
 
         Float value = Float.parseFloat(info[12]);
-
-
         return value;
     }
 
@@ -143,6 +140,10 @@ public class InfoGrabber {
 
 
     public Integer get_Soil_Moisture_5() {
+
+        System.out.println(info[17]);
+
+        System.out.println(Float.parseFloat(info[17]));
         return Integer.parseInt(info[17]);
     }
 

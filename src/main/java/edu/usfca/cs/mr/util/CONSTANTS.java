@@ -11,10 +11,12 @@ public class CONSTANTS {
     //Error values
     public static float airTempError = 0;
     public static float surfaceTempError = -9999;
-    public static float MISSING1DEC = -9999.0f;
-    public static float MISSING3DEC = -99;
+    public static float MISSINGSOILTEMP = -99;
 
-
+    public static float FOUR9S = -9999;
+    public static float TWO9S = -99;
+    public static int MISSINGWETNESS = -9999;
+    public static String YOSEMITEVALLEY = "9QF";
 
 
 

@@ -1,35 +1,41 @@
-package edu.usfca.cs.mr.Question1;
+package edu.usfca.cs.mr.Question2;
 
 import edu.usfca.cs.mr.Customs.DateLocation;
+import edu.usfca.cs.mr.Customs.DryOrWetWeather;
+import edu.usfca.cs.mr.wordcount.WordCountMapper;
+import edu.usfca.cs.mr.wordcount.WordCountReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Date;
+import java.util.concurrent.RejectedExecutionException;
+import java.util.stream.Stream;
 
 /**
  * This is the main class. Hadoop will invoke the main method of this class.
  */
-public class AirTemp {
+public class DriestRegion {
     public static void main(String[] args) {
 
         try {
             Configuration conf = new Configuration();
 
             /* Job Name. You'll see this in the YARN webapp */
-            Job job = Job.getInstance(conf, "AirTemp Job");
+            Job job = Job.getInstance(conf, "Driest Region job");
 
             /* Current class */
-            job.setJarByClass(AirTemp.class);
+            job.setJarByClass(edu.usfca.cs.mr.Question2.DriestRegion.class);
 
             /* Mapper class */
-            job.setMapperClass(AirTempMapper.class);
+            job.setMapperClass(DriestRegionMapper.class);
 
             /* Combiner class. Combiners are run between the Map and Reduce
              * phases to reduce the amount of output that must be transmitted.
@@ -37,16 +43,14 @@ public class AirTemp {
              * but ONLY if its inputs and ouputs match up correctly. The
              * combiner is disabled here, but the following can be uncommented
              * for this particular job:
-             */
-
-//            job.setCombinerClass(Question1Reducer.class);
+            //job.setCombinerClass(Question1Reducer.class);
 
             /* Reducer class */
-            job.setReducerClass(AirTempReducer.class);
+            job.setReducerClass(DriestRegionReducer.class);
 
             /* Outputs from the Mapper. */
             job.setMapOutputKeyClass(DateLocation.class);
-            job.setMapOutputValueClass(FloatWritable.class);
+            job.setMapOutputValueClass(DryOrWetWeather.class);
 
             /* Outputs from the Reducer */
             job.setOutputKeyClass(Text.class);
@@ -56,11 +60,9 @@ public class AirTemp {
             job.setNumReduceTasks(2);
 
             /* Job input path in HDFS */
-
-
             FileInputFormat.setInputDirRecursive(job, true);
-
             FileInputFormat.addInputPath(job, new Path(args[0]));
+
             /* Job output path in HDFS. NOTE: if the output path already exists
              * and you try to create it, the job will fail. You may want to
              * automate the creation of new output directories here */

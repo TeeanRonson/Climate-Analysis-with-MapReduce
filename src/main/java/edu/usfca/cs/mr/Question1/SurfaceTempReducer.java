@@ -25,7 +25,7 @@ public class SurfaceTempReducer
     protected void reduce(DateLocation key, Iterable<FloatWritable> values, Context context) throws IOException, InterruptedException {
 
         for (FloatWritable f: values) {
-            if (f.get() != CONSTANTS.MISSING1DEC) {
+            if (f.get() != CONSTANTS.TWO9S) {
                 highestTemp = Math.max(highestTemp, f.get());
                 lowestTemp = Math.min(lowestTemp, f.get());
             }
