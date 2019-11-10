@@ -13,39 +13,61 @@ import java.util.concurrent.TimeUnit;
 
 public class DateLocation implements WritableComparable<DateLocation> {
 
-    private String location;
-    private int time;
+    private Text location;
+    private IntWritable date;
 
     public DateLocation(String location, int time) {
-        this.location = location;
-        this.time = time;
+        this.location = new Text(location);
+        this.date = new IntWritable(time);
 
     }
 
-    public int getTime() {
-        return time;
+    public DateLocation() {
+        this.location = new Text();
+        this.date = new IntWritable();
     }
 
-    public String getLocation() {
+    public void set(String location, int time) {
+        this.location = new Text(location);
+        this.date = new IntWritable(time);
+    }
+
+    public IntWritable getDate() {
+        return date;
+    }
+
+    public Text getLocation() {
         return location;
     }
 
     @Override
+    public String toString() {
+
+        if (location == null || date.get() == 0) {
+            return null;
+        }
+        return location + " " + String.valueOf(date.get());
+    }
+
+    @Override
     public void write(DataOutput out) throws IOException {
-        out.writeChars(location);
-        out.writeInt(time);
+        location.write(out);
+        date.write(out);
     }
 
     @Override
     public void readFields(DataInput in) throws IOException {
-        location = in.readLine();
-        time = in.readInt();
+        location.readFields(in);
+        date.readFields(in);
     }
 
     @Override
     public int compareTo(DateLocation o) {
 
-        return this.time - o.time;
+        if (this.date.get() == o.date.get()) {
+            return this.location.compareTo(o.getLocation());
+        }
+        return this.date.get() - o.date.get();
 
     }
 }

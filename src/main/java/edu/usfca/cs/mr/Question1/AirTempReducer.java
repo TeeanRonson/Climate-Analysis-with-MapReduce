@@ -26,19 +26,37 @@ extends Reducer<DateLocation, FloatWritable, Text, Text> {
         float highestTemp = Float.MIN_VALUE;
         float lowestTemp = Float.MAX_VALUE;
 
+        Text location = new Text();
+        Text date = new Text();
+
         for (FloatWritable f: values) {
             if (f.get() != CONSTANTS.MISSING1DEC) {
-                highestTemp = Math.max(highestTemp, f.get());
-                lowestTemp = Math.min(lowestTemp, f.get());
+//                if (f.get() > highestTemp) {
+//                    highestTemp = f.get();
+//                }
+                if (f.get() < lowestTemp) {
+                    lowestTemp = f.get();
+                }
             }
         }
 
-        System.out.println(highestTemp);
-        System.out.println(lowestTemp);
-//        Text outputKey = new Text(String.valueOf(key.getTime()) + " " + key.getLocation());
+//        if (!location.toString().equals("")) {
+//            context.write(new Text(location.toString()), new Text(String.valueOf(highestTemp)));
+//        }
 
-        context.write(new Text(key.getTime() + " " + key.getLocation()), new Text("Highest: " + String.valueOf(highestTemp)));
-        context.write(new Text(key.getTime() + " " + key.getLocation()), new Text("Lowest: " + String.valueOf(lowestTemp)));
+//        if (!location.toString().equals("")) {
+//            context.write(new Text(location.toString()), new Text(String.valueOf(lowestTemp)));
+//        }
+
+        if (key.toString() != null) {
+            context.write(new Text(key.toString()), new Text(String.valueOf(lowestTemp)));
+        }
+
+//        if (key.toString() != null) {
+//            context.write(new Text(key.toString()), new Text(String.valueOf(highestTemp)));
+//        }
+
+
     }
 
 }

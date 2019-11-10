@@ -10,6 +10,9 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 /**
  * This is the main class. Hadoop will invoke the main method of this class.
  */
@@ -34,7 +37,9 @@ public class AirTemp {
              * but ONLY if its inputs and ouputs match up correctly. The
              * combiner is disabled here, but the following can be uncommented
              * for this particular job:
-            //job.setCombinerClass(Question1Reducer.class);
+             */
+
+//            job.setCombinerClass(Question1Reducer.class);
 
             /* Reducer class */
             job.setReducerClass(AirTempReducer.class);
@@ -52,17 +57,13 @@ public class AirTemp {
 
             /* Job input path in HDFS */
 
-//            Path test1 = new Path("test_file.txt");
-//            FileInputFormat.addInputPath(job, test1);
+
+            FileInputFormat.setInputDirRecursive(job, true);
 
             FileInputFormat.addInputPath(job, new Path(args[0]));
-
             /* Job output path in HDFS. NOTE: if the output path already exists
              * and you try to create it, the job will fail. You may want to
              * automate the creation of new output directories here */
-//            Path test1Output = new Path("output_test_file.txt");
-//            FileOutputFormat.setOutputPath(job, test1Output);
-
             FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
             /* Wait (block) for the job to complete... */
