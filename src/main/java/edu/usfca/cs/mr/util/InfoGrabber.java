@@ -45,6 +45,11 @@ public class InfoGrabber {
         return Integer.parseInt(info[1].substring(0, 6));
     }
 
+    public Integer getUTCDateByYear() {
+        return Integer.parseInt(info[1].substring(0, 4));
+    }
+
+
     /**
      * HHmm
      * @return
@@ -86,6 +91,7 @@ public class InfoGrabber {
      */
     public Float get_Air_Temp() {
 
+//        System.out.println("AIRTEMP:" + info[8]);
 
         Float value = Float.parseFloat(info[8]);
 
@@ -96,9 +102,19 @@ public class InfoGrabber {
      *
      */
     public Float get_Precipitation() {
+
+//        System.out.println("PRECIP:" + info[9]);
+
+        if (info[9].equals(CONSTANTS.STRINGFOUR9)) {
+            return Float.parseFloat(info[19]);
+        }
         return Float.parseFloat(info[9]);
     }
 
+    /**
+     *
+     * @return
+     */
     public Integer get_Solar_Radiation() {
         return Integer.parseInt(info[10]);
     }
@@ -117,6 +133,13 @@ public class InfoGrabber {
      */
     public Float get_Surface_Temp() {
 
+
+//        System.out.println("Surface:" + info[12]);
+
+        if (info[12].equals(CONSTANTS.STRINGFOUR9)) {
+            return CONSTANTS.FLOATFOUR9;
+        }
+
         Float value = Float.parseFloat(info[12]);
         return value;
     }
@@ -130,28 +153,60 @@ public class InfoGrabber {
 
     }
 
+    /**
+     * Relative humidity
+     * @return
+     */
     public Integer get_Relative_Humidity() {
+
+//        System.out.println("RelHum:" + info[15]);
+
+        if (info[15].equals(CONSTANTS.STRINGFOUR9)) {
+            return CONSTANTS.INTFOUR9;
+        }
         return Integer.parseInt(info[15]);
     }
 
+    /**
+     * Get relative humidity
+     * @return
+     */
     public Integer get_Relative_Humidity_Flag() {
         return Integer.parseInt(info[16]);
     }
 
 
+    /**
+     * Get soil moisture
+     * @return
+     */
     public Integer get_Soil_Moisture_5() {
 
-        System.out.println(info[17]);
-
-        System.out.println(Float.parseFloat(info[17]));
+        if (info[17].equals(CONSTANTS.STRINGFOUR9)) {
+            return CONSTANTS.INTFOUR9;
+        }
         return Integer.parseInt(info[17]);
     }
 
+    /**
+     * Get soil Temperature
+     * @return
+     */
     public Integer get_Soil_Temperature_5() {
+
+        if (info[18].equals(CONSTANTS.STRINGFOUR9)) {
+            return CONSTANTS.INTFOUR9;
+        }
         return Integer.parseInt(info[18]);
     }
 
     public Integer get_Wetness() {
+
+//        System.out.println("Wetess:" + info[19]);
+
+        if (info[19].equals(CONSTANTS.STRINGFOUR9)) {
+            return CONSTANTS.INTFOUR9;
+        }
         return Integer.parseInt(info[19]);
     }
 

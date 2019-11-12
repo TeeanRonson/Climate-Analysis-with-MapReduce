@@ -1,31 +1,31 @@
-package edu.usfca.cs.mr.Question1;
+package edu.usfca.cs.mr.Question4;
 
 import edu.usfca.cs.mr.Customs.DateLocation;
+import edu.usfca.cs.mr.Customs.Weather;
+import edu.usfca.cs.mr.Question3.BayAreaEquivalentMapper2;
+import edu.usfca.cs.mr.Question3.BayAreaEquivalentReducer2;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-/**
- * This is the main class. Hadoop will invoke the main method of this class.
- */
-public class SurfaceTemp {
+public class TravelStartup {
+
     public static void main(String[] args) {
 
         try {
             Configuration conf = new Configuration();
 
             /* Job Name. You'll see this in the YARN webapp */
-            Job job = Job.getInstance(conf, "SurfaceTemp Job");
+            Job job = Job.getInstance(conf, "Bay Area Equivalent job");
 
             /* Current class */
-            job.setJarByClass(SurfaceTemp.class);
+            job.setJarByClass(TravelStartup.class);
 
             /* Mapper class */
-            job.setMapperClass(SurfaceTempMapper.class);
+            job.setMapperClass(TravelStartupMapper.class);
 
             /* Combiner class. Combiners are run between the Map and Reduce
              * phases to reduce the amount of output that must be transmitted.
@@ -33,16 +33,14 @@ public class SurfaceTemp {
              * but ONLY if its inputs and ouputs match up correctly. The
              * combiner is disabled here, but the following can be uncommented
              * for this particular job:
-             */
-
-//            job.setCombinerClass(Question1Reducer.class);
+            //job.setCombinerClass(Question1Reducer.class);
 
             /* Reducer class */
-            job.setReducerClass(SurfaceTempReducer.class);
+            job.setReducerClass(TravelStartupReducer.class);
 
             /* Outputs from the Mapper. */
             job.setMapOutputKeyClass(DateLocation.class);
-            job.setMapOutputValueClass(FloatWritable.class);
+            job.setMapOutputValueClass(Weather.class);
 
             /* Outputs from the Reducer */
             job.setOutputKeyClass(Text.class);
@@ -52,7 +50,9 @@ public class SurfaceTemp {
             job.setNumReduceTasks(1);
 
             /* Job input path in HDFS */
+            FileInputFormat.setInputDirRecursive(job, true);
             FileInputFormat.addInputPath(job, new Path(args[0]));
+
             /* Job output path in HDFS. NOTE: if the output path already exists
              * and you try to create it, the job will fail. You may want to
              * automate the creation of new output directories here */

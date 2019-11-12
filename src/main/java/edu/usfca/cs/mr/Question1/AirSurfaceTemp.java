@@ -49,7 +49,7 @@ public class AirSurfaceTemp {
             job.setOutputValueClass(Text.class);
 
             /* Reduce tasks */
-            job.setNumReduceTasks(2);
+            job.setNumReduceTasks(1);
 
             /* Job input path in HDFS */
 

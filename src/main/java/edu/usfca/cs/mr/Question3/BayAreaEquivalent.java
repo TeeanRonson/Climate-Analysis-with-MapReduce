@@ -1,41 +1,31 @@
-package edu.usfca.cs.mr.Question2;
+package edu.usfca.cs.mr.Question3;
 
 import edu.usfca.cs.mr.Customs.DateLocation;
 import edu.usfca.cs.mr.Customs.Weather;
-import edu.usfca.cs.mr.wordcount.WordCountMapper;
-import edu.usfca.cs.mr.wordcount.WordCountReducer;
+import edu.usfca.cs.mr.Question2.DriestRegionMapper;
+import edu.usfca.cs.mr.Question2.DriestRegionReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Date;
-import java.util.concurrent.RejectedExecutionException;
-import java.util.stream.Stream;
+public class BayAreaEquivalent {
 
-/**
- * This is the main class. Hadoop will invoke the main method of this class.
- */
-public class DriestRegion {
     public static void main(String[] args) {
 
         try {
             Configuration conf = new Configuration();
 
             /* Job Name. You'll see this in the YARN webapp */
-            Job job = Job.getInstance(conf, "Driest Region job");
+            Job job = Job.getInstance(conf, "Bay Area Equivalent job");
 
             /* Current class */
-            job.setJarByClass(edu.usfca.cs.mr.Question2.DriestRegion.class);
+            job.setJarByClass(edu.usfca.cs.mr.Question3.BayAreaEquivalent.class);
 
             /* Mapper class */
-            job.setMapperClass(DriestRegionMapper.class);
+            job.setMapperClass(BayAreaEquivalentMapper2.class);
 
             /* Combiner class. Combiners are run between the Map and Reduce
              * phases to reduce the amount of output that must be transmitted.
@@ -46,7 +36,7 @@ public class DriestRegion {
             //job.setCombinerClass(Question1Reducer.class);
 
             /* Reducer class */
-            job.setReducerClass(DriestRegionReducer.class);
+            job.setReducerClass(BayAreaEquivalentReducer2.class);
 
             /* Outputs from the Mapper. */
             job.setMapOutputKeyClass(DateLocation.class);

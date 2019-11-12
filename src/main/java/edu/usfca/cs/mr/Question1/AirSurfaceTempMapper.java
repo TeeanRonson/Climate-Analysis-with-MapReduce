@@ -1,6 +1,7 @@
 package edu.usfca.cs.mr.Question1;
 
 import edu.usfca.cs.mr.Customs.DateLocation;
+import edu.usfca.cs.mr.util.CONSTANTS;
 import edu.usfca.cs.mr.util.Geohash;
 import edu.usfca.cs.mr.util.InfoGrabber;
 import org.apache.hadoop.io.FloatWritable;
@@ -21,21 +22,22 @@ extends Mapper<LongWritable, Text, DateLocation, FloatWritable> {
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
         //Initialise InfoGrabber
-        InfoGrabber grab = new InfoGrabber(value.toString());
+        InfoGrabber info = new InfoGrabber(value.toString());
         DateLocation dl = new DateLocation();
         FloatWritable airTemp = new FloatWritable();
-        FloatWritable surfTemp = new FloatWritable();
-
+//        FloatWritable surfTemp = new FloatWritable();
 
         //Get Location
-        String location = Geohash.encode(grab.get_Latitude(), grab.get_Longitude(), 3);
-        dl.set(location, grab.getUTCDateByMonth());
+        String location = Geohash.encode(info.get_Latitude(), info.get_Longitude(), 3);
+        dl.set(location, info.getUTCDateByMonth());
 
         //Get Air Temp
-        airTemp.set(grab.get_Air_Temp());
-        surfTemp.set(grab.get_Surface_Temp());
+        airTemp.set(info.get_Air_Temp());
+//        surfTemp.set(info.get_Surface_Temp());
 
 //        context.write(dl, surfTemp);
-        context.write(dl, airTemp);
+        if (airTemp.get() != CONSTANTS.FLOATFOUR9) {
+            context.write(dl, airTemp);
+        }
     }
 }

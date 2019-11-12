@@ -30,23 +30,23 @@ extends Reducer<DateLocation, FloatWritable, Text, Text> {
         Text date = new Text();
 
         for (FloatWritable f: values) {
-            if (f.get() != CONSTANTS.TWO9S) {
-//                if (f.get() > highestTemp) {
-//                    highestTemp = f.get();
-//                }
-                if (f.get() < lowestTemp) {
-                    lowestTemp = f.get();
+            if (f.get() != CONSTANTS.FLOATFOUR9) {
+                if (f.get() > highestTemp) {
+                    highestTemp = f.get();
                 }
+//                if (f.get() < lowestTemp) {
+//                    lowestTemp = f.get();
+//                }
             }
         }
 
-//        if (key.toString() != null) {
-//            context.write(new Text(key.toString()), new Text(String.valueOf(highestTemp)));
-//        }
-
-        if (key.toString() != null && lowestTemp != Float.MAX_VALUE) {
-            context.write(new Text(key.toString()), new Text(String.valueOf(lowestTemp)));
+        if (key.toString() != null && highestTemp != Float.MIN_VALUE) {
+            context.write(new Text(key.toString()), new Text(String.valueOf(highestTemp)));
         }
+
+//        if (key.toString() != null && lowestTemp != Float.MAX_VALUE) {
+//            context.write(new Text(key.toString()), new Text(String.valueOf(lowestTemp)));
+//        }
     }
 
 }
