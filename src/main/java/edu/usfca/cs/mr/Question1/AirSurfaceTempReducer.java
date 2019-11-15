@@ -25,23 +25,25 @@ extends Reducer<DateLocation, FloatWritable, Text, Text> {
         //find the highest and lowest air temp
         float highestTemp = Float.MIN_VALUE;
         float lowestTemp = Float.MAX_VALUE;
-
-        Text location = new Text();
-        Text date = new Text();
+        float aveTemp = 0;
+        int count = 0;
 
         for (FloatWritable f: values) {
             if (f.get() != CONSTANTS.FLOATFOUR9) {
                 if (f.get() > highestTemp) {
                     highestTemp = f.get();
                 }
-//                if (f.get() < lowestTemp) {
-//                    lowestTemp = f.get();
-//                }
+                if (f.get() < lowestTemp) {
+                    lowestTemp = f.get();
+                }
+                aveTemp += f.get();
+                count = count + 1;
             }
         }
 
-        if (key.toString() != null && highestTemp != Float.MIN_VALUE) {
-            context.write(new Text(key.toString()), new Text(String.valueOf(highestTemp)));
+        String aveTemperature = String.valueOf(aveTemp/count);
+        if (key.toString() != null && highestTemp != Float.MIN_VALUE && lowestTemp != Float.MAX_VALUE) {
+            context.write(new Text(key.toString()), new Text(String.valueOf(highestTemp) + ", " + String.valueOf(lowestTemp) + ", " + aveTemperature));
         }
 
 //        if (key.toString() != null && lowestTemp != Float.MAX_VALUE) {

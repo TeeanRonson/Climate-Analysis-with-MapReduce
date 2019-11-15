@@ -49,6 +49,10 @@ public class InfoGrabber {
         return Integer.parseInt(info[1].substring(0, 4));
     }
 
+    public Integer getExactMonth() {
+        return Integer.parseInt(info[1].substring(5, 6));
+    }
+
 
     /**
      * HHmm
@@ -106,7 +110,7 @@ public class InfoGrabber {
 //        System.out.println("PRECIP:" + info[9]);
 
         if (info[9].equals(CONSTANTS.STRINGFOUR9)) {
-            return Float.parseFloat(info[19]);
+            return Float.parseFloat(info[9]);
         }
         return Float.parseFloat(info[9]);
     }
@@ -116,6 +120,11 @@ public class InfoGrabber {
      * @return
      */
     public Integer get_Solar_Radiation() {
+
+        if (info[10].equals(CONSTANTS.STRINGFIVE9)) {
+            return 0;
+        }
+
         return Integer.parseInt(info[10]);
     }
 
@@ -133,8 +142,6 @@ public class InfoGrabber {
      */
     public Float get_Surface_Temp() {
 
-
-//        System.out.println("Surface:" + info[12]);
 
         if (info[12].equals(CONSTANTS.STRINGFOUR9)) {
             return CONSTANTS.FLOATFOUR9;
@@ -180,24 +187,32 @@ public class InfoGrabber {
      * Get soil moisture
      * @return
      */
-    public Integer get_Soil_Moisture_5() {
+    public Float get_Soil_Moisture_5() {
 
-        if (info[17].equals(CONSTANTS.STRINGFOUR9)) {
-            return CONSTANTS.INTFOUR9;
+//        if (info[17].equals(CONSTANTS.STRINGTWO9)) {
+//            return CONSTANTS.INTFOUR9;
+//        }
+
+        if (info[17].equals(CONSTANTS.STRINGTWO9)) {
+//            System.out.println("Hello");
+            return 0.0f;
         }
-        return Integer.parseInt(info[17]);
+
+        System.out.println(infoAsString);
+        System.out.println("soil moisture:" + info[17]);
+        return Float.parseFloat(info[17]);
     }
 
     /**
      * Get soil Temperature
      * @return
      */
-    public Integer get_Soil_Temperature_5() {
+    public Float get_Soil_Temperature_5() {
 
         if (info[18].equals(CONSTANTS.STRINGFOUR9)) {
-            return CONSTANTS.INTFOUR9;
+            return 0.0f;
         }
-        return Integer.parseInt(info[18]);
+        return Float.parseFloat(info[18]);
     }
 
     public Integer get_Wetness() {
@@ -215,6 +230,8 @@ public class InfoGrabber {
     }
 
     public Float get_Wind_Speed_1_5() {
+
+
         return Float.parseFloat(info[21]);
     }
 

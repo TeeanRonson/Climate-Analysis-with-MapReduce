@@ -18,22 +18,28 @@ public class TravelStartupReducer
         int count = 0;
         float fahrenheit = 0;
         float relativeHumid = 0;
+        float airTempTotal = 0;
+        float solarRadiation = 0;
+        float precipTotal = 0;
 
         for (Weather w : values) {
             fahrenheit += 32 + (w.getAirTemp().get() * 9 / 5);
             relativeHumid += w.getRelativeHumidity().get();
+            airTempTotal += w.getAirTemp().get();
+            precipTotal += w.getPrecipitation().get();
             count = count + 1;
         }
 
 
         comfortIndex = (fahrenheit + relativeHumid)/(4*count);
-        System.out.println(comfortIndex);
+        float airTempAve = airTempTotal / count;
+        float solarRadiationAve = solarRadiation / count;
+        float precipAve = precipTotal / count;
+        float humidAve = relativeHumid / count;
 
-        if (isComfortable(comfortIndex)) {
+        context.write(new Text(key.toString()), new Text(String.valueOf(comfortIndex) + ", " + String.valueOf(airTempAve) + ", " + String.valueOf(solarRadiationAve)
+                    + ", " + String.valueOf(precipAve) + ", " + String.valueOf(humidAve)));
 
-            System.out.println(comfortIndex);
-            context.write(new Text(key.toString()), new Text(String.valueOf(comfortIndex)));
-        }
 
     }
 

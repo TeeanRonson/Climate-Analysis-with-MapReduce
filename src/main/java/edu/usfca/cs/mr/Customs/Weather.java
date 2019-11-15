@@ -1,5 +1,6 @@
 package edu.usfca.cs.mr.Customs;
 
+import com.sun.org.apache.bcel.internal.generic.FLOAD;
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Writable;
@@ -22,17 +23,18 @@ public class Weather implements Writable {
     private IntWritable wetness;
     private IntWritable relativeHumidity;
     private FloatWritable precipitation;
-    private IntWritable soilMoisture;
-    private IntWritable soilTemp;
+    private FloatWritable soilMoisture;
+    private FloatWritable soilTemp;
     private FloatWritable airTemp;
     private FloatWritable surfTemp;
     private FloatWritable wind;
+    private IntWritable solarRadiation;
 
     public Weather() {
         this.wetness = new IntWritable();
-        this.soilMoisture = new IntWritable();
+        this.soilMoisture = new FloatWritable();
         this.relativeHumidity = new IntWritable();
-        this.soilTemp = new IntWritable();
+        this.soilTemp = new FloatWritable();
         this.precipitation = new FloatWritable();
         this.airTemp = new FloatWritable();
         this.surfTemp = new FloatWritable();
@@ -40,6 +42,7 @@ public class Weather implements Writable {
         this.airTemp = new FloatWritable();
         this.surfTemp = new FloatWritable();
         this.wind = new FloatWritable();
+        this.solarRadiation = new IntWritable();
     }
 
 
@@ -51,11 +54,11 @@ public class Weather implements Writable {
         this.relativeHumidity = relativeHumidity;
     }
 
-    public void setSoilMoisture(IntWritable soilMoisture) {
+    public void setSoilMoisture(FloatWritable soilMoisture) {
         this.soilMoisture = soilMoisture;
     }
 
-    public void setSoilTemp(IntWritable soilTemp) {
+    public void setSoilTemp(FloatWritable soilTemp) {
         this.soilTemp = soilTemp;
     }
 
@@ -73,6 +76,22 @@ public class Weather implements Writable {
 
     public void setWind(FloatWritable wind) {
         this.wind = wind;
+    }
+
+    public void setSolarRadiation(IntWritable solarRadiation) {
+        this.solarRadiation = solarRadiation;
+    }
+
+    public FloatWritable getSurfTemp() {
+        return surfTemp;
+    }
+
+    public FloatWritable getSoilMoisture() {
+        return soilMoisture;
+    }
+
+    public FloatWritable getSoilTemp() {
+        return soilTemp;
     }
 
     public FloatWritable getPrecipitation() {
@@ -95,12 +114,17 @@ public class Weather implements Writable {
         return wind;
     }
 
+    public IntWritable getSolarRadiation() {
+        return solarRadiation;
+    }
+
     @Override
     public String toString() {
         String wetness = String.valueOf(this.wetness.get());
-        String relativeHumidity = String.valueOf(this.relativeHumidity.get());
         String precipitation = String.valueOf(this.precipitation.get());
-        return wetness + ", " + relativeHumidity + ", " + ", " + precipitation;
+
+
+        return wetness + ", " + ", " + precipitation;
     }
 
 
@@ -114,6 +138,7 @@ public class Weather implements Writable {
         airTemp.write(out);
         surfTemp.write(out);
         wind.write(out);
+        solarRadiation.write(out);
     }
 
     @Override
@@ -126,5 +151,6 @@ public class Weather implements Writable {
         airTemp.readFields(in);
         surfTemp.readFields(in);
         wind.readFields(in);
+        solarRadiation.readFields(in);
     }
 }

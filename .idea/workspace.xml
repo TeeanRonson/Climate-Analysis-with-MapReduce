@@ -7,37 +7,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d07b56df-208c-420a-8c5b-bcf6041820c7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentMapper2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentReducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentReducer2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupReducer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question2/9QDAirTemperatures/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question2/9QDAirTemperatures/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question2/9QDAirTemperatures/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question2/9QDAirTemperatures/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2012-2019/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2012-2019/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2012-2019/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Solar2012-2019/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/SolarDL2012-2019/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/SolarDL2012-2019/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/SolarDL2012-2019/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/SolarDL2012-2019/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2012-2019/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2012-2019/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2012-2019/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question5/Wind2012-2019/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/ILLINOISAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IOWAAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2012-2019/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2012-2019/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2012-2019/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/IndianaAugust2012-2019/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2012-2019/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2012-2019/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2012-2019/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/KansasAugust2012-2019/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MINESSAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/MissouriAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NDakotaAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/NebraskaAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2006-2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2006-2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2006-2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2006-2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2012-2018/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2012-2018/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2012-2018/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Question8/OhioAugust2012-2018/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/question1Air2011/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/question1Air2011/.part-r-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/question1Air2011/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/question1Air2011/part-r-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWind.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindReducer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefix.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefixMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefixReducer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFutures.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesReducer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question5/SolarWind.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question5/SolarWindMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question5/SolarWindReducer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question6/GeoHashPrefix.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question6/GeoHashPrefixMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question6/GeoHashPrefixReducer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question8/SoybeanFutures.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question8/SoybeanFuturesMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question8/SoybeanFuturesReducer.class" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/DryOrWetWeather.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTemp.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTemp.java" />
+      <change beforePath="$PROJECT_DIR$/Question3 2.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempReducer.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempReducer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/SurfaceTemp.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartup.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/SurfaceTempMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/SurfaceTempReducer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegion.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegion.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionMapper.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionReducer.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionReducer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupReducer.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupReducer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/InfoGrabber.java" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/InfoGrabber.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Customs/DryOrWetWeather.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/AirSurfaceTemp.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/AirSurfaceTemp.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Customs/Weather.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Customs/Weather.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/AirSurfaceTempReducer.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/AirSurfaceTempReducer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/SurfaceTemp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/SurfaceTempMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question1/SurfaceTempReducer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question2/DriestRegion.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question2/DriestRegion.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question2/DriestRegionMapper.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question2/DriestRegionMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question2/DriestRegionReducer.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/Question2/DriestRegionReducer.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/util/CONSTANTS.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/util/CONSTANTS.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/util/InfoGrabber.class" afterPath="$PROJECT_DIR$/target/classes/edu/usfca/cs/mr/util/InfoGrabber.class" />
     </list>
@@ -49,35 +151,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mr$SolarWind.coverage" NAME="SolarWind Coverage Results" MODIFIED="1573784102228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CONSTANTS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="50" column="117" lean-forward="false" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="117" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TravelStartupMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+            <state relative-caret-position="810">
+              <caret line="56" column="108" lean-forward="false" selection-start-line="56" selection-start-column="105" selection-end-line="56" selection-end-column="108" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TravelStartupReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupReducer.java">
+      <file leaf-file-name="SoybeanFuturesMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolarWindMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolarWind.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="43" column="57" lean-forward="false" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolarWindReducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Question5/SolarDL2012-2019/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,8 +219,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -110,7 +243,6 @@
       <find>bg5 201901</find>
       <find>wetnessdry</find>
       <find>prec</find>
-      <find>soil</find>
       <find>air</find>
       <find>surfTemp</find>
       <find>dr9</find>
@@ -119,6 +251,20 @@
       <find>dnm, 201204,</find>
       <find>f2r, 201905</find>
       <find>9q</find>
+      <find>djm</find>
+      <find>djq</find>
+      <find>-59</find>
+      <find>59</find>
+      <find>59.1</find>
+      <find>soil</find>
+      <find>0.3</find>
+      <find>9yb</find>
+      <find>0.39</find>
+      <find>0.392</find>
+      <find>solar</find>
+      <find>map</find>
+      <find>wind</find>
+      <find>9zm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,22 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/DataLocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/AirSurface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/Question1Reducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/WordCountMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/wordcount/WordCountMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/Geohash.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/ExtremeWeather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/DateLocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/AirSurface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/AirDateLocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/Question1Mapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/wordcount/WordCountReducer.java" />
-        <option value="$PROJECT_DIR$/weatherInput/CRNS0101-05-2019-CA_Yosemite_Village_12_W.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/SurfaceTemp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/SurfaceTempMapper.java" />
         <option value="$PROJECT_DIR$/question1Air/part-r-00000" />
         <option value="$PROJECT_DIR$/weatherInput/test.txt" />
         <option value="$PROJECT_DIR$/weatherInput/weatherInput1/test1.txt" />
@@ -159,15 +289,11 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirTempMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/DateLocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/SurfaceTempReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTemp.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/DryOrWetWeather.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegion.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/InfoGrabber.java" />
         <option value="$PROJECT_DIR$/BayAreaWeather/part-r-00000" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/BayAreaEquivalent.java" />
@@ -179,9 +305,29 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalent.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentMapper2.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentReducer2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/DriestRegionReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/DriestRegion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoyBeanFutures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFutures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java" />
+        <option value="$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-OR_Riley_10_WSW.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/DriestRegionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/InfoGrabber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java" />
+        <option value="$PROJECT_DIR$/Question5/Solar2012-2019/part-r-00000" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/DriestRegion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/DriestRegionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefixMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefixReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindReducer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -202,7 +348,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="30" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -224,7 +370,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,6 +384,11 @@
             <path>
               <item name="mr" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2-rong-project2" type="462c0819:PsiDirectoryNode" />
+              <item name="Question5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2-rong-project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,14 +403,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2-rong-project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mr" type="b2602c69:ProjectViewProjectNode" />
@@ -266,25 +411,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="Question4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mr" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2-rong-project2" type="462c0819:PsiDirectoryNode" />
-              <item name="WeatherData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2-rong-project2" type="462c0819:PsiDirectoryNode" />
-              <item name="WeatherData" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="Question6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,20 +435,21 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Rong/Documents/USF/BigData/P2-rong-project2/src/main/java/edu/usfca/cs/mr/Question1/AirTempMapper.java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TestDir" />
-      <recent name="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2" />
-      <recent name="$PROJECT_DIR$/weatherInput" />
-      <recent name="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.usfca.cs.mr.Question4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestDir" />
       <recent name="$PROJECT_DIR$/weatherInput/weatherInput2" />
       <recent name="$PROJECT_DIR$/WeatherData" />
       <recent name="$PROJECT_DIR$/input" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.usfca.cs.mr.Question4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8" />
+      <recent name="$PROJECT_DIR$/TestDir" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,7 +464,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TravelStartup">
+  <component name="RunManager" selected="Application.SolarWind">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -335,7 +476,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="edu.usfca.cs.mr.Question1.AirSurfaceTemp" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="WeatherData question1AirHighest" />
+      <option name="PROGRAM_PARAMETERS" value="WeatherData Question2/9QDAirTemperatures" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -373,6 +514,34 @@
       <module name="mr" />
       <envs />
     </configuration>
+    <configuration name="SolarWind" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="edu.usfca.cs.mr.Question5.SolarWind" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="WeatherData Question5/SolarDL2012-2019" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mr" />
+      <envs />
+    </configuration>
+    <configuration name="SoybeanFutures" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="edu.usfca.cs.mr.Question8.SoybeanFutures" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="TestDir Question8/IndianaAugust2006-2011" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mr" />
+      <envs />
+    </configuration>
     <configuration name="SurfaceTempJob" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="edu.usfca.cs.mr.Question1.SurfaceTemp" />
@@ -391,7 +560,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="edu.usfca.cs.mr.Question4.TravelStartup" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="WeatherData/2012 Question4/Alaska2012" />
+      <option name="PROGRAM_PARAMETERS" value="WeatherData/2018 Question8/Ohio" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -494,13 +663,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="6">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Application.AirSurfaceTempJob" />
       <item index="1" class="java.lang.String" itemvalue="Application.DriestRegion" />
       <item index="2" class="java.lang.String" itemvalue="Application.BayAreaEquivalent" />
       <item index="3" class="java.lang.String" itemvalue="Application.TravelStartup" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SurfaceTempJob" />
-      <item index="5" class="java.lang.String" itemvalue="Application.WordCountJob" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SoybeanFutures" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SolarWind" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SurfaceTempJob" />
+      <item index="7" class="java.lang.String" itemvalue="Application.WordCountJob" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -525,7 +696,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="30" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -536,11 +708,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27360514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26862028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14713065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -552,470 +724,366 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2002442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question1/AirSurfaceTempMapper.java">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2012/CRNS0101-05-2012-AK_Fairbanks_11_NE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        <state relative-caret-position="-14103">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionReducer.java">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2012/CRNS0101-05-2012-AK_Utqiagvik_formerly_Barrow_4_ENE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="-1419">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question2/DriestRegionMapper.java">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-AK_Sitka_1_NE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="-3660">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9qWeather/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-AK_Bethel_87_WNW.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-AK_Cordova_14_ESE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175882">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-AK_Fairbanks_11_NE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9qWeatherMonth/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherMinMax/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/InfoGrabber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="e#870#871#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <marker date="1573440904641" expanded="true" signature="1286:1389" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDir/CRNS0101-05-2019-CA_Yosemite_Village_12_W.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeather/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-          <folding>
-            <element signature="e#1820#1821#0" expanded="false" />
-            <element signature="e#1870#1871#0" expanded="false" />
-            <element signature="e#1939#1940#0" expanded="false" />
-            <element signature="e#1995#1996#0" expanded="false" />
-            <element signature="e#2056#2057#0" expanded="false" />
-            <element signature="e#2104#2105#0" expanded="false" />
-            <element signature="e#2157#2158#0" expanded="false" />
-            <element signature="e#2197#2198#0" expanded="false" />
-            <element signature="e#2248#2249#0" expanded="false" />
-            <element signature="e#2286#2287#0" expanded="false" />
-            <element signature="e#2339#2340#0" expanded="false" />
-            <element signature="e#2377#2378#0" expanded="false" />
-            <element signature="e#2432#2433#0" expanded="false" />
-            <element signature="e#2472#2473#0" expanded="false" />
-            <element signature="e#2519#2520#0" expanded="false" />
-            <element signature="e#2551#2552#0" expanded="false" />
-            <element signature="e#2831#2832#0" expanded="false" />
-            <element signature="e#2861#2862#0" expanded="false" />
-            <element signature="e#2899#2900#0" expanded="false" />
-            <element signature="e#2926#2927#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2013/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-AK_Gustavus_2_NE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2014/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-TX_Muleshoe_19_S.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2017/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-TX_Austin_33_NW.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-84491">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2018/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/WeatherData/2013/CRNS0101-05-2013-AK_Fairbanks_11_NE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-72153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2015/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/Question8/IOWAAugust2012-2018/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2016/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="true" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherEquivalents/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2012/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherAverage2011/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/Question4/AlaskaReRun2006/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2012/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/Question4/AlaskaReRun2010/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2013/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/Question4/AlaskaReRun2008/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2014/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/Question4/AlaskaReRun2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/MINESSAugust2006-2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7440">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/MINESSAugust2012-2018/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/IOWAAugust2006-2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherData/2016/CRNS0101-05-2016-AK_Deadhorse_3_S.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-CO_Cortez_8_SE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576272">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-WY_Sundance_8_NNW.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469283">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/NDakotaAugust2006-2011/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2018/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/Question8/NDakotaAugust2012-2018/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalents/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BayAreaWeatherEquivalent2019/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2018/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2017/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2016/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2015/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherAverage2017/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2016/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2015/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2014/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2012/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question4/NewYork/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question4/NewYork2018/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentMapper2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question3/BayAreaEquivalentReducer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="43" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherData/2012/CRNS0101-05-2012-AK_King_Salmon_42_SE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question4/Alaska2018/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherData/2018/CRNS0101-05-2018-AK_King_Salmon_42_SE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question3/BayAreaWeatherEquivalent2013/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="117" lean-forward="false" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question4/Alaska2012/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-211">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="-51">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/NebraskaAugust2012-2018/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.1/hadoop-mapreduce-client-core-3.2.1-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="122" column="20" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/InfoGrabber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question4/TravelStartupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="19" column="109" lean-forward="false" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/NebraskaAugust2006-2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12000">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/Solar/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/TestDir/2006/CRNS0101-05-2006-AK_Fairbanks_11_NE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Customs/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="139" column="14" lean-forward="false" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/MissouriAugust2012-2018/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question8/MissouriAugust2006-2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4595">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/util/CONSTANTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="56" column="108" lean-forward="false" selection-start-line="56" selection-start-column="105" selection-end-line="56" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/Solar2019/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Question6.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/Solar2006-2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/Wind2012-2019/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/Wind2006-2011/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefixReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question6/GeoHashPrefixMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question8/SoybeanFuturesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/Solar2012-2019/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="130" column="22" lean-forward="true" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="43" column="57" lean-forward="false" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/mr/Question5/SolarWindReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question5/SolarDL2012-2019/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -25,19 +25,19 @@ extends Mapper<LongWritable, Text, DateLocation, FloatWritable> {
         InfoGrabber info = new InfoGrabber(value.toString());
         DateLocation dl = new DateLocation();
         FloatWritable airTemp = new FloatWritable();
-//        FloatWritable surfTemp = new FloatWritable();
+        FloatWritable surfTemp = new FloatWritable();
 
         //Get Location
         String location = Geohash.encode(info.get_Latitude(), info.get_Longitude(), 3);
         dl.set(location, info.getUTCDateByMonth());
 
         //Get Air Temp
-        airTemp.set(info.get_Air_Temp());
-//        surfTemp.set(info.get_Surface_Temp());
+//        airTemp.set(info.get_Air_Temp());
+        surfTemp.set(info.get_Surface_Temp());
 
 //        context.write(dl, surfTemp);
-        if (airTemp.get() != CONSTANTS.FLOATFOUR9) {
-            context.write(dl, airTemp);
+        if (surfTemp.get() != CONSTANTS.FLOATFOUR9 && location.equals("9qd")) {
+            context.write(dl, surfTemp);
         }
     }
 }

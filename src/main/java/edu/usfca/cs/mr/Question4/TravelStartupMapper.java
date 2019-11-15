@@ -22,7 +22,7 @@ public class TravelStartupMapper
         //Set up Data
         InfoGrabber info = new InfoGrabber(value.toString());
 
-        String location = Geohash.encode(info.get_Latitude(), info.get_Longitude(), 2);
+        String location = Geohash.encode(info.get_Latitude(), info.get_Longitude(), 3);
         Weather weather = new Weather();
         DateLocation dl = new DateLocation();
 
@@ -42,7 +42,7 @@ public class TravelStartupMapper
 //
 //        }
 
-//        if (CONSTANTS.ORLANDO.contains(location)) {
+//        if (CONSTANTS.NEWORLEANS.contains(location)) {
 //
 //            dl.set(location, info.getUTCDateByMonth());
 //
@@ -55,22 +55,29 @@ public class TravelStartupMapper
 //        }
 
         if (CONSTANTS.ALASKA.contains(location)) {
+//        if (CONSTANTS.ORLANDO.contains(location)) {
+//        if (CONSTANTS.NEWORLEANS.contains(location)) {
 
-            System.out.println(location);
+//        if (CONSTANTS.NEWORLEANS.contains(location)) {
+
+//        if (CONSTANTS.CALIFORNIA.contains(location)) {
+
+//        if (CONSTANTS.GRANDCANYON.contains(location)) {
+//            System.out.println(location);
 
             dl.set(location, info.getUTCDateByMonth());
 
             weather.setAirTemp(new FloatWritable(info.get_Air_Temp()));
             weather.setRelativeHumidity(new IntWritable(info.get_Relative_Humidity()));
+            weather.setPrecipitation(new FloatWritable(info.get_Precipitation()));
+            weather.setSolarRadiation(new IntWritable(info.get_Solar_Radiation()));
 
-            if (info.get_Air_Temp() != CONSTANTS.FLOATFOUR9 && info.get_Relative_Humidity() != CONSTANTS.INTFOUR9) {
+
+            if (info.get_Air_Temp() != CONSTANTS.FLOATFOUR9 && info.get_Relative_Humidity() != CONSTANTS.INTFOUR9 && info.get_Precipitation() != CONSTANTS.FLOATFOUR9
+                    && info.get_Solar_Radiation() != CONSTANTS.FLOATFOUR9 && info.get_Precipitation() != 0) {
                 context.write(dl, weather);
             }
         }
-
-
-
-
 
     }
 }
