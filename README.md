@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Climate Analysis with Map Reduce on US Weather Data
 
 **Project Goal:** Analyzing US Weather data to make inferences and inform direction on a series of questions.
@@ -557,3 +558,5 @@ References:
 [https://www.farmprogress.com/corn/high-temperature-effects-corn-soybeans](https://www.farmprogress.com/corn/high-temperature-effects-corn-soybeans)
 
 [https://ndsoygrowers.com/wp-content/uploads/2018/09/2018ASA-SoyStats.pdf](https://ndsoygrowers.com/wp-content/uploads/2018/09/2018ASA-SoyStats.pdf)
+=======
+>>>>>>> Stashed changes

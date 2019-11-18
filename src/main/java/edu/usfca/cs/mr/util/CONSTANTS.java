@@ -25,6 +25,7 @@ public class CONSTANTS {
     public static String STRINGFOUR9 = "-9999.0";
     public static String STRINGTWO9 = "-99.000";
     public static String STRINGFIVE9 = "-99999";
+    public static String STRINGWINDSPEED = "-99.00";
 
     public static int ERRORVALUE = -1;
 

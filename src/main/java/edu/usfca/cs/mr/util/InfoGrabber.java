@@ -97,6 +97,10 @@ public class InfoGrabber {
 
 //        System.out.println("AIRTEMP:" + info[8]);
 
+        if (info[8].equals(CONSTANTS.STRINGFOUR9)) {
+            return 0f;
+        }
+
         Float value = Float.parseFloat(info[8]);
 
         return value;
@@ -110,7 +114,7 @@ public class InfoGrabber {
 //        System.out.println("PRECIP:" + info[9]);
 
         if (info[9].equals(CONSTANTS.STRINGFOUR9)) {
-            return Float.parseFloat(info[9]);
+            return 0f;
         }
         return Float.parseFloat(info[9]);
     }
@@ -144,7 +148,7 @@ public class InfoGrabber {
 
 
         if (info[12].equals(CONSTANTS.STRINGFOUR9)) {
-            return CONSTANTS.FLOATFOUR9;
+            return 0f;
         }
 
         Float value = Float.parseFloat(info[12]);
@@ -169,7 +173,7 @@ public class InfoGrabber {
 //        System.out.println("RelHum:" + info[15]);
 
         if (info[15].equals(CONSTANTS.STRINGFOUR9)) {
-            return CONSTANTS.INTFOUR9;
+            return 0;
         }
         return Integer.parseInt(info[15]);
     }
@@ -220,7 +224,7 @@ public class InfoGrabber {
 //        System.out.println("Wetess:" + info[19]);
 
         if (info[19].equals(CONSTANTS.STRINGFOUR9)) {
-            return CONSTANTS.INTFOUR9;
+            return 0;
         }
         return Integer.parseInt(info[19]);
     }
@@ -230,6 +234,10 @@ public class InfoGrabber {
     }
 
     public Float get_Wind_Speed_1_5() {
+
+        if (info[21].equals(CONSTANTS.STRINGWINDSPEED)) {
+            return 0f;
+        }
 
 
         return Float.parseFloat(info[21]);
